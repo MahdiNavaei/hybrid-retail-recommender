@@ -1,0 +1,23 @@
+{
+  "appTitle": "سیستم پیشنهاددهنده خرده‌فروشی هیبریدی",
+  "subtitle": "پیشنهادهای شخصی‌سازی‌شده بر پایه مدل‌های هیبریدی",
+  "userId": "شناسه کاربر",
+  "enterUserId": "شناسه کاربر را وارد کنید",
+  "getRecommendations": "دریافت پیشنهادها",
+  "recommendedItems": "اقلام پیشنهادی",
+  "similarItems": "اقلام مشابه",
+  "viewSimilar": "مشاهده موارد مشابه",
+  "noResults": "هیچ موردی یافت نشد",
+  "language": "زبان",
+  "english": "انگلیسی",
+  "persian": "فارسی",
+  "backendStatus": "وضعیت بک‌اند",
+  "backendOnline": "آنلاین",
+  "backendOffline": "آفلاین",
+  "model": "مدل",
+  "baseline": "مدل پایه (محبوبیت)",
+  "cf": "فیلترینگ مشارکتی",
+  "hybrid": "مدل هیبریدی",
+  "score": "امتیاز",
+  "category": "دسته"
+}

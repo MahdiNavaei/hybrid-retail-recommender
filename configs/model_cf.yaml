@@ -1,0 +1,5 @@
+factors: 40
+regularization: 0.1
+iterations: 10
+random_state: 42
+top_k_default: 10

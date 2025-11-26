@@ -1,0 +1,95 @@
+.app-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, #f1f5f9, #eef2ff);
+  color: #0f172a;
+  font-family: "Inter", "Vazirmatn", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e2e8f0;
+  backdrop-filter: blur(6px);
+}
+
+.app-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.app-subtitle {
+  margin: 0.25rem 0 0;
+  color: #475569;
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.app-main {
+  padding: 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 960px) {
+  .app-main {
+    grid-template-columns: 320px 1fr;
+  }
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #e2e8f0;
+  border-radius: 999px;
+  padding: 0.25rem 0.5rem;
+}
+
+.lang-switcher button {
+  border: none;
+  background: transparent;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.lang-switcher button.active {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #0f172a;
+  background: #e2e8f0;
+}
+
+.status-chip.online .dot {
+  background: #10b981;
+}
+
+.status-chip.offline .dot {
+  background: #ef4444;
+}
+
+.status-chip .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}

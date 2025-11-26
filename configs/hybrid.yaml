@@ -1,0 +1,3 @@
+alpha: 0.7
+filter_seen: true
+top_k_default: 10

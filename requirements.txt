@@ -1,0 +1,16 @@
+# EN: Minimal dependencies for Phase 1 (may expand in later phases)
+# FA: وابستگی‌های حداقلی برای فاز ۱ (در فازهای بعدی ممکن است افزایش یابد)
+pandas
+numpy
+scipy
+pyarrow
+matplotlib
+seaborn
+jupyter
+scikit-learn
+pyyaml
+fastapi
+uvicorn
+httpx
+pytest
+pydantic-settings

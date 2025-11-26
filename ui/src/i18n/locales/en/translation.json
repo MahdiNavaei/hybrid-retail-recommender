@@ -1,0 +1,23 @@
+{
+  "appTitle": "Hybrid Retail Recommender",
+  "subtitle": "Personalized product suggestions powered by hybrid models",
+  "userId": "User ID",
+  "enterUserId": "Enter user ID",
+  "getRecommendations": "Get Recommendations",
+  "recommendedItems": "Recommended Items",
+  "similarItems": "Similar Items",
+  "viewSimilar": "View similar",
+  "noResults": "No items found",
+  "language": "Language",
+  "english": "English",
+  "persian": "Persian",
+  "backendStatus": "Backend status",
+  "backendOnline": "Online",
+  "backendOffline": "Offline",
+  "model": "Model",
+  "baseline": "Baseline (Popularity)",
+  "cf": "Collaborative Filtering",
+  "hybrid": "Hybrid Model",
+  "score": "Score",
+  "category": "Category"
+}
